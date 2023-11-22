@@ -5,6 +5,7 @@ using CursoCSharp.Fundamentos;
 
 
 
+
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
@@ -12,6 +13,11 @@ namespace CursoCSharp {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Olá mundo", Comentários.Executar },
                 {"Váriaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
+                {"Inferência - Fundamentos", Inferencia.Executar},
+                {"Interpolação  - Fundamentos", Interpolacao.Executar},
+                {"Notação ponto  - Fundamentos", NotacaoPonto.Executar},
+                {"Lendo dados no console  - Fundamentos", LendoDados.Executar},
+                {"Formantnado Número  - Fundamentos", FormatandoNumero.Executar},
             });
 
             central.SelecionarEExecutar();
