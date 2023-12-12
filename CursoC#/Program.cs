@@ -5,7 +5,7 @@ using CursoCSharp.Fundamentos;
 
 
 
-
+using CursoC_.EstruturaDeControle;
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
@@ -25,10 +25,12 @@ namespace CursoCSharp {
                 {"Operadores de atribuições - fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unarios - fundamentos", OperadoresUnarios.Executar},
                 {"Operadore Ternário - fundamentos", OperadorTernario.Executar},
+                // Agora vamos falar de estruturas de controle
+                {"Estrutura If - Estruturas de controle", EstruturaIf.Executar},
 
-            });
 
-            central.SelecionarEExecutar();
+            }); central.SelecionarEExecutar();
+
         }
     }
 }
