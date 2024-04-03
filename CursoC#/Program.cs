@@ -7,6 +7,8 @@ using CursoCSharp.ClassesEMetodos;
 
 
 using CursoC_.EstruturaDeControle;
+using CursoC_.ClassesEMetodos;
+
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
@@ -39,7 +41,11 @@ namespace CursoCSharp {
                 {"Estrutura CONTINUE - Estruturas de controle", UsandoContinue.Executar},
                 // Classes e Métodos
 
-                {"Membros - Classes e Metodos", Membros.Executar},
+                {"Membros - Classes e Métodos", Membros.Executar},
+                {"Construtores - Classes e Métodos", Construtores.Executar},
+                {"MetodosComRetorno - Classes e Métodos", MetodosComRetorno.Executar},
+                {"Metodos Estáticos - Métodos Estaticos", MetodosEstaticos.Executar},
+                {"Metodos Estáticos - Atributos Estaticos", AtributosEstaticos.Executar},
 
 
             }) {
