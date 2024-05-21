@@ -47,6 +47,7 @@ namespace CursoCSharp {
                 {"Metodos Estáticos - Métodos Estaticos", MetodosEstaticos.Executar},
                 {"Atributos Estaticos - Metodos Estáticos ", AtributosEstaticos.Executar},
                 {"Params - Classes e Metodos", Params.Executar},
+                {"Parametros - Nomeados - Classes e Metodos", ParametrosNomeados.Executar},
 
 
             }) {
